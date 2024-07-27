@@ -16,4 +16,11 @@
   "editor.wordWrap": "on",
   "editor.cursorBlinking": "phase",
   // defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false -> to disable press and hold
+
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "e", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    }
+  ]
 }
